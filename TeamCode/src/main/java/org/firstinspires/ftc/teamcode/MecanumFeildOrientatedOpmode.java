@@ -15,6 +15,10 @@ public class MecanumFeildOrientatedOpmode extends OpMode {
 
     private DcMotor intake = null;
     double intakePower;
+    private DcMotor smallFlyWheel = null;
+    private DcMotor bigFlyWheel = null;
+
+
 
 
     @Override
